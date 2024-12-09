@@ -1,1 +1,2 @@
 # Karaoke-portatil-IA-pytorch
+Portable karaoke which separates voice from audio which leaves a file with the voice and another with the pure instruments or music the way it is systematized is in bash scripting and everything was developed on a raspberry pi 5 and a hard drive mounted in bash the audio collection was done mainly using a cell phone to collect the audio and a speaker all connected via bluetooth, a 25 second audio collection is made using a U-NET neural model
