@@ -1,0 +1,23 @@
+audio.py //recoleccion del audio
+api.py  //aqui sllama todas las funciones de separacion
+demucs.py //explica la implementacion del modelo viene las caracterisitcas de la captura y entrenamiento 
+evaluate.py //aqui se hacen todos los estimados del modelo
+hdemucs.py aqui se hace enfasis en el analisis de los espectogramas de cada banda de audio
+htdemucs/py aqui estan los parametros de los modelos convulosionales (solo ver el texto inicial y los parametros)
+
+prentained.py //aqui es donde se hace el prentenamiento de aqui es de donde se descargan los modelos para la separacion del audio
+
+repitch.py //aqui se hace ajustes sonoros a los audios de prentrenamiento 
+
+separted.py // aqui es donde se parametriza la separacion del audio para nuestro caso usamos el modelo de two==stems
+
+solver.py //este modelo aprueba modelo ya  separados para el manejo de audio
+
+spec.py //definicion de la transformada de forier con ventns que se usan a lo largo del modelo
+svd.py//aqui se definen los modelos de las capas neuronales
+
+transformers.py //aqui es donde se corren los preprocesamientos de audio donde se hace el proceso de encoder (ESTE ES EL MODELO DE PROCESAMIENTO PRINCIPAL)
+
+utils.py //parametros del tensor los cuales incluye todas las operaciones de los tensores usados para todo el modelo
+
+

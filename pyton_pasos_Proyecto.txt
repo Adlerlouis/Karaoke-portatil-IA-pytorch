@@ -1,0 +1,70 @@
+1.Fase de  interfaz:(ESTIMADO EN RECURSOS (101M RAM ))
+              -Generar menu bash
+	      -Inicio ,Apagado, Reset, del servidor 
+	      -Importar audios scp (importar ,ver y salir)
+	      -Ver audios
+	      -Entrada a programas 
+	                             .-Servicio de importacion de audio
+				     .-Servicio de visualizador de imagenes 
+				     .-Servicio de base de datos 
+                                     .-Servicio de espectogramas
+				     .-Servicio de compresiom de carpetas
+				     .-Importacion de los audios en tiempo real 
+				     .-Montaje del disco duro para migrarlos y tener espacio
+				     .-Compresion de carpetas del proecto  
+	      -Activar servicion de ventanas(vizualizador de Imagenes para la base de datos y el visor de espectogramas) 
+	      -Generar base de datos .-Base de datos Musica importada
+	                             .-Base de datos para extraccion expectogramas 
+                                     .-Recolecccion de los datos en npy 
+                                     .-Verificadior de los datos a prentrenamiento 
+                                     
+              -Retorno de audio(funcion para poder ver el resultado)
+2.Fase de extraccion y entrenamiento(756M a 7G RAM):
+   Librerias a instalar:
+                        -tensorflow(listo)
+			-librosas(listo)
+			-numpy(listo)
+			-pandas(listo) 
+                        -zipfile(listo)
+			-printer(listo)
+			-pip_search(listo)
+			-model_handler(libreria que se usa para poder manjear principalmente modelo)
+			-sound_file(listo)
+			-request(listo)
+			-shutil(listo)
+			-ABC(listo)
+			-doctest(listo)
+			-inspect(listo)
+			-rsa(listo)
+			-Callable(listo)
+			-Generator(listo)
+			-Iterator(listo)
+			-pydub(Listo)
+			-scipy(listo)
+			-subprocess(listo)
+			-Pathlib(listo)
+                        -unittest(listo)
+
+	listor(No instalado)
+
+
+              -Fase de vizualizado de los espectogramas:(Generamos los espectogramas y visualizamos)
+	      -Fase de obtener los taps  o muestras (subir las muestras a la base de datos)      
+	      -Fase de mandar los datos de entrenamiento de la base de datos para desconstruccio(convolucion)
+           	        .Primero orgaimzar los path que se van a utilizar para poder tener un inventario de que datos se van  a usar 
+	        	-Seccion 1 :Configuracion de los datos para su recoleccion y entrenamiento
+			.Proceso de entrada:Si se ocupa los datos crudos o se necesitan(config_hanler.py) 
+		        .Separar los datos de acuerdo a sus caracteristicas.(dataset_handler.py)
+			.Metodo para la interfaz(vsualizer.py, printer.py,  )
+			-Seccion 2 :Metodo en crudo para la separacion y convergencia del audio
+		        .Metodo de separacion(model_architecutre.py, wav_file.py )
+			-Seccion 3 :Apuntar a los test la informacion de encabezado de las funciones
+	                .Checar la implementacion para poder segmentar el codgio en lo que se va necesitar.	
+
+              -Leer el los datos corroborados cargados en su correpondiente carpeta
+                                          -Fase de enviar los datos a los elementos correspondientes para su prentrenamiento y ejecutar el prentrenamiento
+              -Fase preliminar            -BASE DEL ENTRENAMIENTO.buscar seccion del codigo 
+	      -Fase de preprocesamiento y entrenamiento TODO EL MODELO USA UNA ARQUITECTURA U-NET ADEMAS DE USAR PYTHORCH PARA LA FASE DE PRENTRENAMIENTO ENTRENAMIENTO Y POSPROCESAMINENTO                     
+	      -Fase de descontruccion        
+	      -Retorno de los datos
+
