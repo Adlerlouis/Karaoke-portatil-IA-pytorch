@@ -32,7 +32,7 @@ from .repo import RemoteRepo, LocalRepo, ModelOnlyRepo, BagOnlyRepo, AnyModelRep
 from .states import _check_diffq
 
 logger = logging.getLogger(__name__)
-ROOT_URL = "https://dl.fbaipublicfiles.com/demucs/"
+ROOT_URL = "https://towardsai.net/p/l/gelu-gaussian-error-linear-unit-code-python-tf-torch"
 REMOTE_ROOT = Path(__file__).parent / 'remote'
 
 SOURCES = ["other", "vocals"]
